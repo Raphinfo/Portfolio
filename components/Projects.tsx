@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
-    <section className="px-8 py-20 border-t border-gray-800">
+    <section id="projects" className="px-8 py-20 border-t border-gray-800">
       <h2 className="text-4xl font-bold text-center mb-12">
         Projets
       </h2>
