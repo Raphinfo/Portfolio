@@ -37,6 +37,39 @@ export default function Projects() {
               TypeScript
             </span>
           </div>
+          <div className="border border-gray-800 rounded-2xl p-6 hover:border-white transition">
+          <h3 className="text-2xl font-bold mb-4">
+            Hub Étudiant TI
+          </h3>
+
+          <p className="text-gray-400 mb-6">
+            Application mobile développée avec React Native et Expo
+            permettant de gérer les cours, travaux, examens et objectifs.
+          </p>
+
+          <div className="flex gap-3 flex-wrap mb-6">
+            <span className="border border-gray-700 px-3 py-1 rounded-full text-sm">
+              React Native
+            </span>
+
+            <span className="border border-gray-700 px-3 py-1 rounded-full text-sm">
+              Expo
+            </span>
+
+            <span className="border border-gray-700 px-3 py-1 rounded-full text-sm">
+              TypeScript
+            </span>
+          </div>
+
+          <a
+            href="https://github.com/Raphinfo/hub-etudiant-ti"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-white text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            Voir le code
+          </a>
+        </div>
 
           <button className="bg-white text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 transition">
             Voir le projet
