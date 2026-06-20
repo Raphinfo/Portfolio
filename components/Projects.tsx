@@ -37,7 +37,13 @@ export default function Projects() {
               TypeScript
             </span>
           </div>
-          <div className="border border-gray-800 rounded-2xl p-6 hover:border-white transition">
+        
+
+          <button className="bg-white text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 transition">
+            Voir le projet
+          </button>
+        </motion.div>
+         <div className="border border-gray-800 rounded-2xl p-6 hover:border-white transition">
           <h3 className="text-2xl font-bold mb-4">
             Hub Étudiant TI
           </h3>
@@ -70,11 +76,6 @@ export default function Projects() {
             Voir le code
           </a>
         </div>
-
-          <button className="bg-white text-black px-5 py-2 rounded-xl font-semibold hover:scale-105 transition">
-            Voir le projet
-          </button>
-        </motion.div>
 
         <motion.div
           whileHover={{ y: -10 }}
